@@ -15,10 +15,20 @@ import pandas as pd
 import requests
 import json
 import os
+import importlib.util
 import time
 from datetime import datetime
-from new_config import TMDB_API_KEY
+# from new_config import TMDB_API_KEY   <--- Facing issues in the import
+# Loading new_config dynamically
+config_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), '..', 'new_config.py')
+)
 
+spec = importlib.util.spec_from_file_location("new_config", config_path)
+config = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(config)
+
+TMDB_API_KEY = config.TMDB_API_KEY
 
 # ============================================================================
 # CONFIGURATION

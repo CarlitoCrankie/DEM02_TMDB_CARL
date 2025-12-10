@@ -1,0 +1,16 @@
+director,Number of Movies,Total Revenue (M USD),Mean Revenue per Movie (M USD),Mean Budget (M USD),Mean Rating,Mean ROI
+James Cameron,2,5187.87,2593.94,218.5,7.75,10.83
+Joss Whedon,2,2924.22,1462.11,227.5,7.57,5.44
+Joe Russo,1,2799.44,2799.44,356.0,8.24,6.86
+Jennifer Lee,2,2727.9,1363.95,150.0,7.24,8.09
+J.J. Abrams,1,2068.22,2068.22,245.0,7.26,7.44
+Anthony Russo,1,2052.42,2052.42,300.0,8.24,5.84
+Colin Trevorrow,1,1671.54,1671.54,150.0,6.7,10.14
+Jon Favreau,1,1662.02,1662.02,260.0,7.1,5.39
+James Wan,1,1515.4,1515.4,190.0,7.2,6.98
+Ryan Coogler,1,1349.93,1349.93,200.0,7.4,5.75
+David Yates,1,1341.51,1341.51,125.0,8.08,9.73
+Rian Johnson,1,1332.7,1332.7,300.0,6.76,3.44
+J.A. Bayona,1,1310.47,1310.47,170.0,6.5,6.71
+Bill Condon,1,1266.12,1266.12,160.0,7.0,6.91
+Brad Bird,1,1243.23,1243.23,200.0,7.5,5.22

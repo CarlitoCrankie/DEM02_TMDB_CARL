@@ -22,15 +22,6 @@ ENV/
 Thumbs.db
 desktop.ini
 
-# Data files (if you want to exclude large CSVs)
-# Uncomment if your cleaned CSV is too large for git
-# *.csv
-# data/
-
-# Generated visualizations (optional - uncomment if you don't want to track images)
-# *.png
-# visualizations/
-
 # Temporary files
 *.tmp
 *.log
